@@ -1,0 +1,28 @@
+#outer {
+    padding: 10px;
+}
+#mybutton {
+    clear: both;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background-color: #ccc;
+    color: #222;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+#myfile {
+    opacity: 0;
+    font-size:42px;
+    position: absolute;
+    right: 0;
+    top: 0;   
+    cursor: pointer;
+}
+#mytext {
+    clear: both;
+    float: left;
+    margin-top: 5px;
+}
